@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!---------------------- UNICONS ---------------------->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+        <!---------------------- SWIPER CSS ---------------------->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        
+        <!---------------------- CSS ---------------------->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Portfolio | Lucas Lima</title>
+    </head>
+    <body>
+        <!-- -------------------- HEADER -------------------- -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Lucas Lima</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#Home" class="nav__link active-link"> 
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Sobre" class="nav__link"> 
+                                <i class="uil uil-user nav__icon"></i> Sobre
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Skills" class="nav__link"> 
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Portfolio" class="nav__link"> 
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Contate-me" class="nav__link"> 
+                                <i class="uil uil-message nav__icon"></i> Contate-me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id='nav-close'></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- botao de troca de tema -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- -------------------- MAIN -------------------- -->
+        <main class="main">
+            <!-- -------------------- HOME -------------------- -->
+            <section class="home section" id="Home">
+                <div class="home__container container grid"> 
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/lucas-lima-b4327919b/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/Lukas00-gif" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div> 
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="-12" y="-10" href="assets/img/perfil3.jfif"/>
+                                    <!-- x ="12" y="18" original -->
+                                 </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Olá, Eu sou o Lucas </h1>
+                            <h3 class="home__subtitle"> Desenvolvedor Front End e Aspirante a Cientista de Dados</h3>
+                            <p class="home__description"> Tenho uma certa experiência de front-end e pretendo ser Cientista de Dados no Futuro </p>
+                            <a href="#Contate-me" class="button button--flex">
+                               Contate-me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#Sobre" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll--name">Descer</span>
+                            <i class="uil uil-arrow-down home__scroll--arrow"></i> 
+                        </a>
+                    </div>
+                  </div>
+            </section>
+
+            <!-- -------------------- SOBRE MIM -------------------- -->
+            <section class="about section" id="Sobre">
+                <h2 class="section__title">Sobre Mim</h2>
+                <span class="section__subtitle">Minha Introdução</span>
+
+                <div class="about__container container grid">
+                    <img src="/assets/img/sobre.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            Tenho 23 anos atualmente cursando Análises e Desenvolvimento de 
+                            Sistema no IFPI Piaui Campos - Picos tenho certa experiência com 
+                            Front-end onde fiz alguns projetos na faculdade e projetos pessoais. 
+                            Estou estudando arduamente para me tornar um Cientista de Dados 
+                            futuramente uma área que estou apaixonado.
+                        </p>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Curriculum.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-file-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------------- SKILLS -------------------- -->
+            <section class="skills section" id="Skills">
+                <h2 class="section__title"> Skills</h2>
+                <span class="section__subtitle">Meu Nível Técnico</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!-- -------------------- SKILLS 1 - FRONT END -------------------- -->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Desenvolvimento em Front End</h1>
+                                    <span class="skills__subtitle">Deste de 2019</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Vue</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__vue"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Bootstrap 4</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__bootstrap"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- -------------------- SKILLS 2 - BACK END -------------------- -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network-alt skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Desenvolvimento em Back End</h1>
+                                    <span class="skills__subtitle">Deste 2020</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__number">55%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                    <!-- -------------------- SKILLS 3 - CIENTISTA DE DADOS -------------------- -->
+                        <div class="skills__content skills__close"> 
+                            <div class="skills__header">
+                                <i class="uil uil-laptop-cloud skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Cientista de Dados</h1>
+                                    <span class="skills__subtitle">Deste de Março de 2021</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                         <div class="skills__list grid">
+                            <div class="skills data"> 
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__R"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------------- PORTFOLIO -------------------- -->
+            <section class="portfolio section" id="Portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Projetos Em Front-End</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                         <!-- -------------------- PORTFOLIO 1(Primeiro portfolio) -------------------- -->
+                         <div class="portfolio__content grid swiper-slide">
+                             <img src="/assets/img/port1.png" alt="" class="portfolio__img">
+
+                             <div class="portfolio__data">
+                                 <h3 class="portfolio__title">Meu Primeiro Portfolio</h3>
+                                 <p class="portfolio__description">Meu Primeiro Portfolio que fiz durante a matéria de Programação Web I.</p>
+                                 <a href="https://github.com/Lukas00-gif/Lukas00-gif.github.io" class="button button--flex button--small portfolio__button">
+                                     Github
+                                     <i class="uil uil-arrow-right button__icon"></i>
+                                 </a>
+                             </div>
+                         </div>
+
+                         <!-- -------------------- PORTFOLIO 2(Imessao Css do alura) -------------------- -->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="/assets/img/port2.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Primeira Imersão Css do alura</h3>
+                                <p class="portfolio__description">Site teste Feito Durante a Primeira Imersão CSS da Alura.</p>
+                                <a href="https://github.com/Lukas00-gif/imersaocss" class="button button--flex button--small portfolio__button">
+                                    Guthub
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- -------------------- PORTFOLIO 3(Radical Dreams) -------------------- -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="/assets/img/port3.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Site Protótipo Radical Dreams - Em Equipe</h3>
+                                <p class="portfolio__description">Feito Durante a Disciplina de Programação Web I. 
+                                    Prototipo do site da empresa de jogos Picoense Radical Dreams.</p>
+                                <a href="https://github.com/droid-janderson/projeto-alt-f4-master" class="button button--flex button--small portfolio__button">
+                                    Github
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://radical-dreamers-2020.firebaseapp.com/home" class="button button--flex button--small portfolio__button">
+                                    Site Online
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- -------------------- PORTFOLIO 4(Parking car) -------------------- -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="/assets/img/port4.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Parking Car - Em Equipe</h3>
+                                <p class="portfolio__description">Site rapido feito Durante a Disciplina de Programaçao web II, usando um Template. 
+                                    Site para Gereciamente de estacionamento.</p>
+                                    <p class="portfolio__warning">! So clicar em Login para Entrar</p>
+                                <a href="https://github.com/Lukas00-gif/Front-ParkingCar" class="button button--flex button--small portfolio__button">
+                                    Github
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://sleepy-thompson-ce71e7.netlify.app" class="button button--flex button--small portfolio__button">
+                                    Site Online
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                         <!-- -------------------- PORTFOLIO 5(Mural Online) -------------------- -->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="/assets/img/port5.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Mural Online - Em Equipe</h3>
+                                <p class="portfolio__description"> Mural Online que está sendo feito nas matérias Projeto integrador I e II. 
+                                    Esse site vai ser utilizado como mural de avisos no IFPI Campus-Picos. </p>
+                                    <p class="portfolio__warning">! Em Andamento...</p>
+                                <a href="https://github.com/ifpi-picos/projeto-integrador-i-mural-online-frontend" class="button button--flex button--small portfolio__button">
+                                    Github
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://mural-online.netlify.app" class="button button--flex button--small portfolio__button">
+                                    Site Online
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                     <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!-- -------------------- CONTACT ME -------------------- -->
+            <section class="contact section" id="Contate-me">
+                <h2 class="section__title">Contate-me</h2>
+                <span class="section__subtitle">Entre em Contato</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">Lucassky08@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="contact__information">
+                                <i class="uil uil-whatsapp contact__icon"></i>
+                                <div>
+                                    <h3 class="contact__title">Whats App</h3>
+                                    <span class="contact__subtitle">(89)9 8104-9317</span>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- -------------------- FOOTER -------------------- -->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Lucas Lima</h1>
+                        <span class="footer__subtitle">Desenvolvidor Front End e Aspirante a Cientista de Dados</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#Skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#Contate-me" class="footer__link">Contate-me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://github.com/Lukas00-gif" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/lucas-lima-b4327919b/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; 2021</p>
+            </div>
+        </footer>
+        
+        <!-- -------------------- SCROLL TOP -------------------- -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!-- -------------------- SWIPER JS -------------------- -->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!-- -------------------- MAIN JS -------------------- -->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
