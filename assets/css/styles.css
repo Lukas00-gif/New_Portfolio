@@ -449,6 +449,7 @@ img
 {
     text-align: center;
     margin-bottom: var(--mb-2-5);
+    text-align: justify;
 }
 
 .about__info
@@ -980,6 +981,11 @@ precisa colocar de novo */
         column-gap: 2rem;
     }
 
+    .nav__link
+    {
+        color: var(--text-color);
+    }
+
     .nav__menu
     {
         margin-left: auto;
@@ -1113,6 +1119,7 @@ precisa colocar de novo */
     .nav__link
     {
         font-size: 16px;
+        color: var(--text-color);
     }
 
     .nav__logo
