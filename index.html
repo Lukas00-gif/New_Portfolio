@@ -6,7 +6,7 @@
 
         <!---------------------- UNICONS ---------------------->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    
+
         <!---------------------- SWIPER CSS ---------------------->
         <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
         
@@ -16,6 +16,7 @@
         <title>Portfolio | Lucas Lima</title>
     </head>
     <body>
+        <!-- V: 0.6 -->
         <!-- -------------------- HEADER -------------------- -->
         <header class="header" id="header">
             <nav class="nav container">
@@ -36,6 +37,11 @@
                         <li class="nav__item">
                             <a href="#Skills" class="nav__link"> 
                                 <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Servicos" class="nav__link"> 
+                                <i class="uil uil-books nav__icon"></i> Projetos
                             </a>
                         </li>
                         <li class="nav__item">
@@ -262,6 +268,16 @@
                                     </div>
                                 </div>
 
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Django(Aprendendo)</h3>
+                                        <span class="skills__number">30%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__django"></span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -306,7 +322,118 @@
                 </div>
             </section>
 
-            <!-- -------------------- PORTFOLIO -------------------- -->
+            <!-- -------------------- PROJETOS EM MENTE --------------------- -->
+            <section class="services section" id="Servicos">
+                <h2 class="section__title"> Projetos Futuros</h2>
+                <span class="section__subtitle"> Proximos Projetos em Mente</span>
+
+                <div class="services__container container grid">
+                    <!-- =================== service 1 front end =============== -->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title"> Front-End <br> Develop </h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja Mais
+                            <i class="uil uil-arrow-right button__icon"></i>    
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Front-End Develop</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <!-- usar o icone de check para marcar se esta feito -->
+                                        <!-- <i class="uil uil-check service__modal-icon"></i> -->
+                                        <p> Lista de Tarefa usando o Local Storage </p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <p> Lista de Cadastro offline </p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <p> To Do List offline </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== service 2 Cientista de dados =============== -->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-atom services__icon"></i>   
+                            <h3 class="services__title"> Cientista <br> de Dados</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja Mais
+                            <i class="uil uil-arrow-right button__icon"></i>    
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Cientista de Dados</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i> 
+
+                                <ul class="services__modal-services grid">  
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check service__modal-icon"></i>
+                                        <p> Como Usar o Histograma no Python</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <!-- <i class="uil uil-check service__modal-icon"></i> -->
+                                        <p> População Vacinada contra o Covid-19 </p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =================== service 3 Django =============== -->
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-atom services__icon"></i>   
+                            <h3 class="services__title"> Django <br> Framework</h3>
+                        </div>
+                        <!-- <p>Em Breve...</p> -->
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja Mais
+                            <i class="uil uil-arrow-right button__icon"></i>    
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Django Framework</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i> 
+
+                                <ul class="services__modal-services grid">  
+                                    <li class="services__modal-service">
+                                        <!-- <i class="uil uil-check service__modal-icon"></i> -->
+                                        <p> API de Cadastro de Livros</p>
+                                    </li>
+
+                                    <ul class="services__modal-services grid">  
+                                        <li class="services__modal-service">
+                                            <!-- <i class="uil uil-check service__modal-icon"></i> -->
+                                            <p> Blog Django</p>
+                                        </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+
+            <!-- -------------------- PORTFOLIO Front-end -------------------- -->
             <section class="portfolio section" id="Portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Projetos Em Front-End</span>
@@ -455,6 +582,43 @@
                 </div>
             </section>
 
+            <!-- -------------------- PORTFOLIO Back end -------------------- -->
+
+            <section class="portfolio section" id="Portfolio">
+                <!-- <h2 class="section__title">Portfolio</h2> -->
+                <span class="section__subtitle">Projetos Back-End</span>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                         <!-- -------------------- PORTFOLIO 1(API Rest Cadastro Livros) -------------------- -->
+                         <!-- colocar o no portfolio__content grid swiper-slide quando tiver mais -->
+                         <div class="portfolio__content grid ">
+                             <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                             <div class="portfolio__data">
+                                 <h3 class="portfolio__title">API Rest</h3>
+                                 <p class="portfolio__description"> Uma API Rest em Django para cadastro de livros. Primeira aplicação em django.</p>
+                                 <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Django, Python </p> 
+                                 <a href="#" target="_blank" class="button button--flex button--small portfolio__button">
+                                     Github
+                                     <i class="uil uil-arrow-right button__icon"></i>
+                                 </a>
+                                 <p class="portfolio__warning">! Sem Imagem...</p>
+                                 <p class="portfolio__warning">! Em Andamento...</p>
+                             </div>
+                         </div>
+
+                    </div>
+
+                    <!-- <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                     <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                     </div> -->
+                     <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
             <!-- -------------------- CONTACT ME -------------------- -->
             <section class="contact section" id="Contate-me">
                 <h2 class="section__title">Contate-me</h2>
@@ -469,17 +633,6 @@
                                 <span class="contact__subtitle">Lucassky08@gmail.com</span>
                             </div>
                         </div>
-
-                        <div>
-                            <div class="contact__information">
-                                <i class="uil uil-whatsapp contact__icon"></i>
-                                <div>
-                                    <h3 class="contact__title">Whats App</h3>
-                                    <span class="contact__subtitle">(89)9 8832-2455</span>
-                                </div>
-                            </div>
-
-                    </div>
                 </div>
             </section>
         </main>
@@ -499,6 +652,9 @@
                         </li>
                         <li>
                             <a href="#Skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Servicos" class="footer__link">Projetos Futuros</a>
                         </li>
                         <li>
                             <a href="#Portfolio" class="footer__link">Portfolio</a>
@@ -521,6 +677,7 @@
 
                 <p class="footer__copy">&#169; 2021</p>
             </div>
+            <img class="imagem_Secreta" src="./assets/img/monument.png" alt="">
         </footer>
         
         <!-- -------------------- SCROLL TOP -------------------- -->
@@ -533,5 +690,8 @@
 
         <!-- -------------------- MAIN JS -------------------- -->
         <script src="./assets/js/main.js"></script>
+
+        <!-- star egg -->
+        <script src="./assets/js/staregg.js"></script>
     </body>
 </html>
