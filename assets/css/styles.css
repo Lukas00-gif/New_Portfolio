@@ -507,7 +507,7 @@ img
 /*-------------------- SKILLS --------------------*/
 .skills__container
 {
-    row-gap: 0;
+    row-gap: 0; 
 }
 
 .skills__header
@@ -608,7 +608,12 @@ img
 }
 .skills__bootstrap
 {
-    width: 85%;
+    width: 55%;
+}
+
+.skills__react
+{
+    width: 60%;
 }
 
 .skills__node
@@ -950,7 +955,7 @@ precisa colocar de novo */
     position: fixed;
     right: 1rem;
     bottom: -20%;
-    background-color: var(--first-color);
+    background-color: var(--first-color-alt);
     opacity: .8;
     padding: 0 .3rem;
     border-radius: .4rem;
@@ -960,7 +965,7 @@ precisa colocar de novo */
 
 .scrollup:hover
 {
-    background-color: var(--first-color-alt);
+    background-color: var(--first-color-lighter);
 }
 
 .scrollup__icon

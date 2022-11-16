@@ -16,7 +16,7 @@
         <title>Portfolio | Lucas Lima</title>
     </head>
     <body>
-        <!-- V: 0.7 -->
+        <!-- 0.8.0 -->
         <!-- -------------------- HEADER -------------------- -->
         <header class="header" id="header">
             <nav class="nav container">
@@ -37,11 +37,6 @@
                         <li class="nav__item">
                             <a href="#Skills" class="nav__link"> 
                                 <i class="uil uil-file-alt nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Servicos" class="nav__link"> 
-                                <i class="uil uil-books nav__icon"></i> Projetos
                             </a>
                         </li>
                         <li class="nav__item">
@@ -79,10 +74,11 @@
                             <a href="https://www.linkedin.com/in/lucas-lima-b4327919b/" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin"></i>
                             </a>
-
-                            <a href="https://github.com/Lukas00-gif" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github"></i>
-                            </a>
+                            
+                            <a href="#Contate-me" class="home__social-icon">
+                                 <i class="uil uil-envelope"></i>    
+                             </a>
+                        
                         </div> 
 
                         <div class="home__img">
@@ -105,12 +101,12 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title">Olá, Eu sou o Lucas </h1>
-                            <h3 class="home__subtitle">Desenvolvedor Back End Django</h3>
-                            <p class="home__description"> Tenho uma boa experiência em Data Science, mas pretendo ser desenvolvedor back end Django no futuro. </p>
+                            <h1 class="home__title">Lucas Lima</h1>
+                            <h3 class="home__subtitle">Desenvolvedor Django</h3>
+                            <p class="home__description"> Tecnologias: Python | Django | React | Next js   </p>
                             
-                            <a href="https://github.com/Lukas00-gif/Portfolio_DataScience" target="_blank" class="button button--flex">
-                              Portfolio Data Science <i class="uil uil-angle-double-right button__icon"></i>
+                            <a href="https://github.com/Lukas00-gif" target="_blank" class="button button--flex">
+                              Meu GitHub <i class="uil uil-github button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -132,21 +128,21 @@
 
                 <div class="about__container container grid">
                     <img src="/assets/img/sobre.jpg" alt="" class="about__img">
+                    
 
                     <div class="about__data">
                         <p class="about__description">
                             Tenho 24 anos, atualmente cursando Análises e Desenvolvimento de 
-                            Sistema no IFPI Piaui Campos - Picos tenho uma boa experiência com 
-                            Data Science.
-                            Estou estudando arduamente para me tornar um Dev Back End Django. 
-                            Sou bastante apaixonado por python  :)
+                            Sistema no IFPI Piaui Campos - Picos tenho uma boa experiência com a Framework
+                            Django e Next js. 
+                            
+                            Tambem participo da Mambee - Fabrica de Software de Picos.
+
+                            <!-- Estou estudando arduamente para me tornar um Dev Back End Django. 
+                            Sou bastante apaixonado por python  :) -->
                         </p>
 
-                        <div class="about__buttons">
-                            <a download="" href="#" class="button button--flex">
-                                Download CV<i class="uil uil-file-download-alt button__icon"></i>
-                            </a>
-                        </div>
+                        <!-- botao do cv, colocar depois  -->
                         
                     </div>
                 </div>
@@ -157,7 +153,8 @@
                 <h2 class="section__title"> Skills</h2>
                 <span class="section__subtitle">Meu Nível Técnico</span>
 
-                <div class="skills__container container grid">
+                <!-- tinha um grid aki depois do container -->
+                <div class="skills__container container">
                     <div>
                         <!-- -------------------- SKILLS 1 - FRONT END -------------------- -->
                         <div class="skills__content skills__open">
@@ -215,13 +212,25 @@
 
                                 <div class="skills data"> 
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">Bootstrap 4</h3>
-                                        <span class="skills__number">85%</span>
+                                        <h3 class="skills__name">Next JS</h3>
+                                        <span class="skills__number">55%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__bootstrap"></span>
-                                    </div>
+                                    </div> 
                                 </div>
+
+                                <div class="skills data"> 
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div> 
+                                </div>
+
+
                             </div>
                         </div>
                         <!-- -------------------- SKILLS 2 - BACK END -------------------- -->
@@ -270,7 +279,7 @@
 
                                 <div class="skills data"> 
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">Django - Inicio de 2022</h3>
+                                        <h3 class="skills__name">Django Framework</h3>
                                         <span class="skills__number">70%</span>
                                     </div>
                                     <div class="skills__bar">
@@ -281,165 +290,63 @@
                             </div>
                         </div>
                     </div>
-
-                    <div>
-                    <!-- -------------------- SKILLS 3 - CIENTISTA DE DADOS -------------------- -->
-                        <div class="skills__content skills__close"> 
-                            <div class="skills__header">
-                                <i class="uil uil-laptop-cloud skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Cientista de Dados</h1>
-                                    <span class="skills__subtitle">Deste de Março de 2021</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                         <div class="skills__list grid">
-                            <div class="skills data"> 
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">85%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__python"></span>
-                                </div>
-                            </div>
-
-                                <div class="skills data"> 
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">R</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__R"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
 
-            <!-- -------------------- PROJETOS EM MENTE --------------------- -->
-            <section class="services section" id="Servicos">
-                <h2 class="section__title"> Projetos Futuros</h2>
-                <span class="section__subtitle"> Proximos Projetos em Mente</span>
-
-                <div class="services__container container grid">
-                    <!-- =================== service 1 Django =============== -->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-atom services__icon"></i>   
-                            <h3 class="services__title"> Django <br> Framework</h3>
-                        </div>
-                        <!-- <p>Em Breve...</p> -->
-                        <span class="button button--flex button--small button--link services__button">
-                            Veja Mais
-                            <i class="uil uil-arrow-right button__icon"></i>    
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Django Framework</h4>
-                                <i class="uil uil-times-circle services__modal-close"></i> 
-
-                                <ul class="services__modal-services grid">  
-                                    <li class="services__modal-service">
-                                        <!-- <i class="uil uil-check service__modal-icon"></i> -->
-                                        <p> Aplicação com Banco de Dados </p>
-                                    </li>
-                                
-                                <ul class="services__modal-services grid">  
-                                     <li class="services__modal-service">
-                                         <!-- <i class="uil uil-check service__modal-icon"></i> -->
-                                         <p> Aplicação com Deploy no heroku</p>
-                                    </li>
-
-                                <ul class="services__modal-services grid">  
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check service__modal-icon"></i>
-                                        <p> Chat Django com Web Socket</p>
-                                    </li>
-
-                                <ul class="services__modal-services grid">  
-                                     <li class="services__modal-service">
-                                        <i class="uil uil-check service__modal-icon"></i>
-                                         <p> FreelaWay | Pythonando 3.0</p>
-                                     </li>
-
-                                <ul class="services__modal-services grid">  
-                                     <li class="services__modal-service">
-                                            <i class="uil uil-check service__modal-icon"></i>
-                                         <p> API de Cadastro de Livros</p>
-                                     </li>
-
-                                <ul class="services__modal-services grid">  
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check service__modal-icon"></i>
-                                         <p> Blog Django</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- =================== service 2 Cientista de dados =============== -->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-atom services__icon"></i>   
-                            <h3 class="services__title"> Cientista <br> de Dados</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            Veja Mais
-                            <i class="uil uil-arrow-right button__icon"></i>    
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Cientista de Dados</h4>
-                                <i class="uil uil-times-circle services__modal-close"></i> 
-
-                                <ul class="services__modal-services grid">  
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check service__modal-icon"></i>
-                                        <p> Como Usar o Histograma no Python</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- -------------------- PORTFOLIO Front-end -------------------- -->
+            <!-- -------------------- PORTFOLIO  -------------------- -->
             <section class="portfolio section" id="Portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Projetos com Django</span>
+                <h2 class="section__title">Meus Projetos</h2>
+                <span class="section__subtitle"></span>
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
-                        <!-- -------------------- PORTFOLIO 1(Blog Django) -------------------- -->
+                       <!-- -------------------- PORTFOLIO 1 (Radical Dreams) -------------------- -->
+                       <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/port3.png" alt="" class="portfolio__img">
 
-                        <div class="portfolio__content grid swiper-slide ">
-                            <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Blog Django</h3>
-                                <p class="portfolio__description"> Blog Django primeira aplicação em django.</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Django, Bootstrap4</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Bibliotecas Usadas: CKEditor, Decouple  </p>                           
-                                <a href="#" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Github
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <p class="portfolio__warning">! Sem Imagem...</p>
-                            </div>
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Site Protótipo Radical Dreams - Em Equipe</h3>
+                            <p class="portfolio__description">Feito Durante a Disciplina de Programação Web I. 
+                                Prototipo do site da empresa de jogos Picoense Radical Dreams.</p>
+                                <p class="portfolio"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Javascript </p> 
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Frameworks:  Bootstrap-vue </p> 
+                            <a href="https://github.com/droid-janderson/projeto-alt-f4-master" target="_blank" class="button button--flex button--small portfolio__button">
+                                Github
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="https://radical-dreamers-2020.firebaseapp.com/home" target="_blank" class="button button--flex button--small portfolio__button">
+                                Site Online
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
+                    </div>
 
-                         <!-- -------------- PORTFOLIO 2(API REST de cadastro de livros)--------- -->
-                         <div class="portfolio__content grid swiper-slide ">
-                            <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                    <!-- -------------------- PORTFOLIO 2 (Mural Online) -------------------- -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/port5.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Mural Online - Em Equipe</h3>
+                            <p class="portfolio__description"> Mural Online que está sendo feito nas matérias Projeto integrador I e II. 
+                                Esse site vai ser utilizado como mural de avisos no IFPI Campus-Picos. </p>
+                                <p class="portfolio"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Javascript, Insomnia, Axios </p>
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Frameworks: Bootstrap-vue</p>
+                            <a href="https://github.com/ifpi-picos/projeto-integrador-i-mural-online-frontend" target="_blank" class="button button--flex button--small portfolio__button">
+                                Github
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a href="https://mural-online.netlify.app" target="_blank" class="button button--flex button--small portfolio__button">
+                                Site Online
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                        
+
+                         <!-- -------------- PORTFOLIO 3(API REST de cadastro de livros)--------- -->
+                    <div class="portfolio__content grid swiper-slide ">
+                        <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">API Rest</h3>
                                 <p class="portfolio__description"> Uma API Rest em Django para cadastro de livros. Primeira aplicação em django.</p>
@@ -453,15 +360,16 @@
                             </div>
                         </div>
 
-                         <!-- -------------- PORTFOLIO 3(Evento Pythonando 3.0)--------- -->
+
+                         <!-- -------------- PORTFOLIO 4(Multistack treinaweb)--------- -->
                          <div class="portfolio__content grid swiper-slide ">
                             <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Evento Pythonando 3.0</h3>
-                                <p class="portfolio__description"> Um Evento de python. Onde fizemos uma aplicação para contratação de freelancer.</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Django, HTML, Css</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Bibliotecas Usadas: Decouple </p> 
-                                <a href="#" target="_blank" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">Multistack Treinaweb</h3>
+                                <p class="portfolio__description"> Um Evento da treina web onde foi contruido uma aplicaçao para adoação de Pets. </p>
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas Front End: Next Js, React Js</p>
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas Back End: Django</p>
+                                <a href="https://github.com/Lukas00-gif/MultiStack_frontend" target="_blank" class="button button--flex button--small portfolio__button">
                                     Github
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -469,15 +377,16 @@
                             </div>
                         </div>
 
-                        <!-- -------------- PORTFOLIO 4(Chat Django)--------- -->
+
+                        <!-- -------------- PORTFOLIO 5(Pro Aula)--------- -->
                         <div class="portfolio__content grid swiper-slide ">
                             <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Chat</h3>
-                                <p class="portfolio__description"> Um Chat em Django com Web Socket e Javascript para aprender como usar Web Socket.</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Django, HTML, Tailwind, JavaScript, Web Socket</p>
-                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Bibliotecas Usadas: Channels, Decouple </p> 
-                                <a href="https://github.com/Lukas00-gif/DjangoChat" target="_blank" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">Pro Aula - Mambee - Em Equipe</h3>
+                                <p class="portfolio__description">Uma aplicação de Reposição e Antecipação de Aulas que irá ser utilizado no IFPI Campus - Picos</p>
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Next Js, React</p>
+                                <!-- <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Bibliotecas Usadas: Decouple </p>  -->
+                                <a href="https://github.com/mambee-ifpi-picos/ifpi-proaula-front-end" target="_blank" class="button button--flex button--small portfolio__button">
                                     Github
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -486,49 +395,23 @@
                             </div>
                         </div>
 
-                        
-                        <!-- -------------------- PORTFOLIO (Radical Dreams) -------------------- -->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/port3.png" alt="" class="portfolio__img">
-
+                        <!-- -------------- PORTFOLIO 6(Evento pylab)--------- -->
+                        <div class="portfolio__content grid swiper-slide ">
+                            <img src="/assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Site Protótipo Radical Dreams - Em Equipe</h3>
-                                <p class="portfolio__description">Feito Durante a Disciplina de Programação Web I. 
-                                    Prototipo do site da empresa de jogos Picoense Radical Dreams.</p>
-                                    <p class="portfolio"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Javascript </p> 
-                                    <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Frameworks:  Bootstrap-vue </p> 
-                                <a href="https://github.com/droid-janderson/projeto-alt-f4-master" target="_blank" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">Evento Pylab - Seletive</h3>
+                                <p class="portfolio__description"> Um Evento de python. Onde fizemos um Prototipo de uma aplicação para gerenciamento 
+                                    de processo seletivo. Todo o processo seletivo e feito na plataforma.</p>
+                                <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Django Framework, HTML, CSS</p>
+                                <a href="https://github.com/Lukas00-gif/seletive_Django" target="_blank" class="button button--flex button--small portfolio__button">
                                     Github
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="https://radical-dreamers-2020.firebaseapp.com/home" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Site Online
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                         <!-- -------------------- PORTFOLIO (Mural Online) -------------------- -->
-                         <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/port5.png" alt="" class="portfolio__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Mural Online - Em Equipe</h3>
-                                <p class="portfolio__description"> Mural Online que está sendo feito nas matérias Projeto integrador I e II. 
-                                    Esse site vai ser utilizado como mural de avisos no IFPI Campus-Picos. </p>
-                                    <p class="portfolio"><i class="uil uil-check-circle button__icon"></i> Tecnologias Usadas: Javascript, Insomnia, Axios </p>
-                                    <p class="portfolio__description"><i class="uil uil-check-circle button__icon"></i> Frameworks: Bootstrap-vue</p>
-                                <a href="https://github.com/ifpi-picos/projeto-integrador-i-mural-online-frontend" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Github
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://mural-online.netlify.app" target="_blank" class="button button--flex button--small portfolio__button">
-                                    Site Online
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                                <p class="portfolio__warning">! Sem Imagem...</p>
                                 <p class="portfolio__warning">! Em Andamento...</p>
                             </div>
                         </div>
+
 
 
                     </div>
@@ -591,18 +474,12 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Lucas Lima</h1>
-                        <span class="footer__subtitle">Desenvolvedor Back End Django</span>
+                        <span class="footer__subtitle">Desenvolvedor Django</span>
                     </div>
 
                     <ul class="footer__links">
                         <li>
-                            <a href="https://github.com/Lukas00-gif/Portfolio_DataScience" target="_blank" class="footer__link">Portfolio Data Science</a>
-                        </li>
-                        <li>
                             <a href="#Skills" class="footer__link">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#Servicos" class="footer__link">Projetos Futuros</a>
                         </li>
                         <li>
                             <a href="#Portfolio" class="footer__link">Portfolio</a>
